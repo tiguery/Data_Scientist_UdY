@@ -1,11 +1,11 @@
-# Developer Salary & Job Satisfaction — Global (Stack Overflow 2024)
+# Developer Salary & Job Satisfaction — Global (Stack Overflow 2025)
 
-**Goal.** Answer five visual questions about global developer **salary** and **job satisfaction**, then fit a tiny model.
+**Goal.** Answer visual questions about global developer **salary** and **job satisfaction**, then fit on a model.
 
-## Data (Approved Source)
-- **Stack Overflow Developer Survey 2024** → https://survey.stackoverflow.co/
-- Download **CSV**: `survey_results_public_2024.csv`
-- Place at: `data/survey_results_public_2024.csv`
+## Data
+- **Stack Overflow Developer Survey 2025** → https://survey.stackoverflow.co/
+- Download **CSV**: `survey_results_public_2025.csv`
+- Place at: `data/survey_results_public_2025.csv
 
 ## Environment
 ```
@@ -23,11 +23,11 @@ seaborn
      data/
      figures/   (optional)
    ```
-2. Download the CSV and save as `data/survey_results_public_2024.csv`.
+2. Download the CSV and save as `data/survey_results_public_2025.csv`.
 3. Open `developer_survey_notebook.ipynb`, set `CSV_PATH` if needed, and run all cells.
 4. The notebook will:
-   - Load and lightly clean the data (filter salary to $5k–$500k; drop missing fields).
-   - Produce **5 plots** (one per question) using seaborn’s simple style.
+   - Load and lightly clean the data (filter salary to $5k–$260k; drop missing fields).
+   - Produce **5 plots** (one per question) using seaborn.
    - Train a small **LinearRegression** (optional) and report **R²/MAE**.
    - Run a **scenario**: add **+5 years** to experience and re-predict salary.
 
@@ -39,8 +39,8 @@ seaborn
 5) Is higher salary linked to higher job satisfaction?  
 
 ## Notes
-- This is **beginner-friendly**: clear cells, short code, and transparent filters.
+- This has: clear cells, short code, and transparent filters.
 - If columns differ slightly, adjust the column name mapping cell near the top.
 
 ## License
-MIT — adapt freely for coursework.
+MIT — adapt freely for coursework
