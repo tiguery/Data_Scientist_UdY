@@ -403,4 +403,20 @@ A simple scenario—**+5 years experience**—lifts the predicted salary, consis
 <img width="484" height="384" alt="image" src="https://github.com/user-attachments/assets/a3f69cea-d3a5-4463-a0a0-2d3a472b7cbe" />
 Predicted increase: +$6,216
 
+**Further analysis and validation**
+
+<img width="784" height="384" alt="image" src="https://github.com/user-attachments/assets/94850644-15de-4b6e-bea7-4d90140b526c" />
+
+Most residuals cluster near zero, though a few extreme salaries cause a long tail, that would be typical for salary data with wide income ranges.
+
+<img width="798" height="484" alt="image" src="https://github.com/user-attachments/assets/ea5ae82e-870a-49b2-a08c-46108dd61650" />
+
+Experience (YearsCodePro) has the largest positive effect, meaning each extra year adds roughly a few thousand dollars on average.
+Some countries have positive coefficients (e.g., U.S. or Switzerland) — others slightly negative, reflecting real-world salary gaps.
+
+<img width="878" height="384" alt="image" src="https://github.com/user-attachments/assets/28ba0388-db40-4a10-8f42-572271f7d427" />
+
+Positive bars show countries with higher predicted salaries than the base (usually the first alphabetically, e.g., United Kingdom).
+Negative ones indicate slightly lower expected pay, even after adjusting for experience.
+
 **Takeaway.** Five simple visuals tell a clear story: **country, experience, and work mode** shape compensation and satisfaction—but personal fit and role context still matter.
