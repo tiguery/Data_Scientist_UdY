@@ -1,6 +1,7 @@
 # Developer Salary & Job Satisfaction — Global (Stack Overflow 2025)
 
-**Goal.** Answer visual questions about global developer **salary** and **job satisfaction**, then fit on a model.
+**Goal.** 
+For this project I was interested in conducting exploratory data analysis using a Job Satisfaction Survey found on StackOverflow about developers. My goal is to answer visual questions about global developer **salary** and **job satisfaction**, then fit on a model. Hopefully this can help prospective developers make better decisions about their careers.
 
 ## Data
 - **Stack Overflow Developer Survey 2025** → https://survey.stackoverflow.co/
@@ -43,4 +44,4 @@ seaborn
 - If columns differ slightly, adjust the column name mapping cell near the top.
 
 ## License
-MIT — adapt freely for coursework
+For educational use only
